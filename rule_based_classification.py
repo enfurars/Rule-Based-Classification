@@ -7,7 +7,7 @@ pd.set_option('display.width', 500)
 
 # Step 1: Reading the "persona.csv" file and showing general information about the dataset.
 
-file_path = r'C:\Users\enfur\Desktop\miuul\KuralTabanlSnflandrma-230620-161541\persona.csv'
+file_path = r'PATH TO YOUR CSV FILE'
 df = pd.read_csv(file_path)
 
 def general_info(dataframe, head=10):
